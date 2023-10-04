@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ServiceBusConnectionString": "Endpoint=sb://todolist.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=we7yU48SR0mIgM9BuRQekKODhhLQ3Rths+ASbLqBN8Y=",
+    "SqlServerConnectionString": "Server=tcp:todolistdb.database.windows.net,1433;Initial Catalog=todolist;Persist Security Info=False;User ID=todolistadmin;Password=Password@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "SignalRConnectionString": "Endpoint=sb://todolist.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=we7yU48SR0mIgM9BuRQekKODhhLQ3Rths+ASbLqBN8Y="
+  },
+  "Host": {
+    "CORS": "http://localhost:5000/",
+    "CORSCredentials": true
+  }
+}
